@@ -27,12 +27,6 @@ button {
   gap: 1.5rem;
 }
 
-@media (min-width: 600px) {
-  .shop-items {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
 .item {
   background: #f9f9f9;
   border: 1px solid #ddd;
@@ -89,20 +83,31 @@ button {
   margin-top: 1.5rem;
   transition: background 0.3s ease;
 }
-
-.telegram-button {
-  background-color: #0088cc;
-  color: white;
-  border: none;
-  padding: 12px 24px;
-  font-size: 1rem;
-  border-radius: 30px;
-  cursor: pointer;
-  margin-top: 1.5rem;
-  transition: background 0.3s ease;
+.created-box {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  background-color: #ffffffcc;
+  padding: 10px 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  color: #444;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  z-index: 100;
 }
 
-.telegram-button:hover {
-  background-color: #006699;
+.created-box p {
+  margin: 4px 0;
 }
+.item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 0.8rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
 
