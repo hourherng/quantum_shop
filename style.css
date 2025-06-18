@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+  text-align: center;
+  margin-top: 50px;
+}
+
+button {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 1.2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+}
+
+.shop h2 {
+  font-size: 1.8rem;
+  color: #2a4d69;
+  margin-bottom: 1rem;
+}
+
+.shop-items {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 600px) {
+  .shop-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.item {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1.2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.item:hover {
+  transform: scale(1.02);
+}
+
+.item h3 {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.item p {
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  display: block;
+  font-weight: bold;
+  color: #007acc;
+  margin-bottom: 0.8rem;
+}
+
+.item button {
+  background-color: #4da6ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.item button:hover {
+  background-color: #007acc;
+}
+.external-button {
+  background-color: #e1306c;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  transition: background 0.3s ease;
+}
+
+.telegram-button {
+  background-color: #0088cc;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  transition: background 0.3s ease;
+}
+
+.telegram-button:hover {
+  background-color: #006699;
+}
+
